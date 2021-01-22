@@ -9,6 +9,8 @@ To cite:
 
 Required Python libraries: Numpy, Scipy, Pytorch, Requests, tqdm
 
+For CUDA 11.0 you can also run `pip install -r requirements.txt`
+
 To download datasets:
 Run "get_datasets.py" within folder "datasets".
 Only downloads DSD100, since MedleyDB requires special permission.
@@ -20,8 +22,7 @@ config.py specifies hyperparameters, command-line arguments and general configur
 
 Main script: "run.py" within folder "src"
 
-Tested with Python 3.7.9, Numpy 1.19.4, Scipy 1.5.4, Pytorch 1.0.1
-
+Tested with Python 3.7.9, Numpy 1.19.4, Scipy 1.6.0, Pytorch 1.7.1
 
 
 Acknowledgements

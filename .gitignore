@@ -1,0 +1,8 @@
+.vscode/
+.pylintrc
+__pycache__/
+*.save
+*.zip
+DSD100*/
+output/generation/
+*.pt

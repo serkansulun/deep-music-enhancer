@@ -67,6 +67,7 @@ if __name__ == "__main__":
     if args.model in ids.keys():
         file_id = ids[args.model]
         destination = args.model + ".pt"
+        print("Downloading model, this may take some time.")
         download_file_from_google_drive(file_id, destination)
     else:
         raise ValueError("""Invalid model. Options: 

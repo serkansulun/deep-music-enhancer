@@ -5,7 +5,7 @@ https://arxiv.org/abs/2011.07274v2
 
 To cite:
 
-```S. Sulun and M. E. P. Davies, "On Filter Generalization for Music Bandwidth Extension Using Deep Neural Networks," in IEEE Journal of Selected Topics in Signal Processing, doi: 10.1109/JSTSP.2020.3037485.```
+```S. Sulun and M. E. P. Davies, "On Filter Generalization for Music Bandwidth Extension Using Deep Neural Networks," in IEEE Journal of Selected Topics in Signal Processing, vol. 15, no. 1, pp. 132-142, Jan. 2021, doi: 10.1109/JSTSP.2020.3037485.```
 
 Required Python libraries: Numpy, Scipy, Pytorch, Requests, tqdm
 

@@ -12,15 +12,35 @@ Required Python libraries: Numpy, Scipy, Pytorch, Requests, tqdm
 For CUDA 11.0 you can also run `pip install -r requirements.txt`
 
 To download datasets:
-Run "get_datasets.py" within folder "datasets".
+Run `get_datasets.py` within folder `datasets`.
 Only downloads DSD100, since MedleyDB requires special permission.
 
 To download pre-trained models:
-Run "get_models.py --model [modelname]" within the folder "output/models".
+Run `get_models.py --model [modelname]` within the folder `output/models`.
+Also, here are the individual download links for the models:
 
-config.py specifies hyperparameters, command-line arguments and general configuration.
+`U-Net`: https://drive.google.com/file/d/1cg2BDS2WqwIvicihDJFxak7FiffQMGdu/view?usp=share_link
 
-Main script: "run.py" within folder "src"
+`U-Net DA`: https://drive.google.com/file/d/1iKyGo_28NvRzOY6JKNPdf9FLnOrGH_GN/view?usp=share_link
+
+`U-Net BN`: https://drive.google.com/file/d/1Altk_WsfpdDHWDPg_bVuqwC7rK0kmmle/view?usp=share_link
+
+`U-Net DO`: https://drive.google.com/file/d/1bC6wPdIDS5kMwuWOpckqsNOPHiZ2orYe/view?usp=share_link
+
+`ResNet`: https://drive.google.com/file/d/1HcOTwYjR23ZLs0VVMymiUYbDb6FXhgz9/view?usp=share_link
+
+`ResNet DA`: https://drive.google.com/file/d/18UnGjoHE16v76w7qMrTEiTgsUelDG1fY/view?usp=share_link
+
+`ResNet BN`: https://drive.google.com/file/d/1JjLQPqH0qW_l-P1jpNOTBbvxtKDJknDS/view?usp=share_link
+
+`ResNet DO`: https://drive.google.com/file/d/1ycpnQj98bi2eEsLef0ZIRBmPI5UjMJ5Y/view?usp=share_link
+
+
+
+
+`config.py` specifies hyperparameters, command-line arguments and general configuration.
+
+Main script: `run.py` within folder `src`
 
 Tested with Python 3.7.9, Numpy 1.19.4, Scipy 1.6.0, Pytorch 1.7.1
 
